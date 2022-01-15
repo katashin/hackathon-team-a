@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Concept from '../components/Concept';
 import Content from '../components/Contents';
 import Hero from '../components/Hero';
 import PageFooter from '../components/PageFooter';
@@ -12,6 +13,7 @@ export default function Home() {
     <div>
       <PageHeader />
       <Hero />
+      <Concept />
       <Content />
       <Voice />
       <PageFooter />
