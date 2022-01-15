@@ -1,4 +1,4 @@
-import fs from 'fs';
+// import fs from 'fs';
 import Image from 'next/image';
 
 export default function ESLintTestPage() {
