@@ -1,7 +1,7 @@
 export default function Content() {
   return (
     <div className='mx-auto w-[80%] text-black-base mt-10'>
-      <h2 className='text-3xl font-bold'>内容</h2>
+      <h2 className='text-3xl font-bold'>応募について</h2>
       <div className='text-2xl'>
         <div className='pt-8'>
           <p>・募集期間：2022年4月1日〜2022年8月31日</p>
