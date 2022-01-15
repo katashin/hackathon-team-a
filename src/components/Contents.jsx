@@ -1,6 +1,6 @@
 export default function Content() {
   return (
-    <div className='mx-auto w-[80%] text-black-base'>
+    <div className='mx-auto w-[80%] text-black-base mt-10'>
       <h2 className='text-3xl font-bold'>内容</h2>
       <div className='text-2xl'>
         <div className='pt-8'>
