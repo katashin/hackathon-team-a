@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function ValuesCard(props) {
   return (
     <>
-      <div className='w-1/3 h-full'>
+      <div className='w-1/3 h-full' style={{ borderRight: '3px solid #6bc2c3' }}>
         <div>
           <div className='inline-block'>
             <Image
@@ -24,18 +24,17 @@ export default function ValuesCard(props) {
             <p>仕事を続けながら、オンライン参加</p>
             <p className='mt-6 font-bold'>■応募理由</p>
             <p>
-              本気で挑戦し、人生を変えていける場であることが、吉崎さんからの説明で伝わってきたことが大きな要因です。
+              起業を成功させるために本気で挑戦し、人生を変えていける場であることが、吉崎さんからの説明で伝わってきたことが大きな要因です。
             </p>
-            <p className='invisible'>hidden</p>
             <p className='mt-6 font-bold'>■現時点での感想</p>
             <p>
-              環境が異なる仲間との出会いから、新しい世界、価値観、情報に触れる機会がとても増えました。とても刺激的で常にワクワクしています。
+              環境が異なる仲間との出会いから、新しい世界、価値観、情報に触れる機会がとても増えました。毎日がとても刺激的で、今までに感じたことのないワクワクを感じています。
             </p>
           </div>
         </div>
       </div>
 
-      <div className='w-1/3 h-full'>
+      <div className='w-1/3 h-full' style={{ borderRight: '3px solid #6bc2c3' }}>
         <div>
           <div className='inline-block'>
             <Image

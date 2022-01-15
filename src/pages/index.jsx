@@ -13,8 +13,8 @@ export default function Home() {
     <div>
       <PageHeader />
       <Hero />
-      <Concept />
       <Content />
+      <Concept />
       <Voice />
       <PageFooter />
     </div>

@@ -3,10 +3,9 @@ import Link from 'next/link';
 import MenuList from './MenuList';
 
 const headerMenu = [
-  ['temp', 'about'],
-  ['temp', 'skills'],
-  ['temp', 'values'],
-  ['temp', 'future'],
+  ['応募について', 'about'],
+  ['企画者の想い', 'skills'],
+  ['参加者の声', 'values'],
 ];
 
 export default function PageHeader() {
