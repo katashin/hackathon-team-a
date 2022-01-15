@@ -1,4 +1,4 @@
-export default function TailwindcssTestPage(): JSX.Element {
+export default function TailwindcssTestPage() {
   return (
     <div>
       <h1 className='p-10 text-xl text-red-600'>Tailwind CSS</h1>
