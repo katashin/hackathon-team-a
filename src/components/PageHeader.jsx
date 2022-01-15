@@ -1,12 +1,12 @@
+import Image from 'next/image';
 import Link from 'next/link';
-import Image from 'next/link';
 import MenuList from './MenuList';
 
 const headerMenu = [
-  ['ABOUT', 'about'],
-  ['SKILLS', 'skills'],
-  ['VALUES', 'values'],
-  ['FUTURE', 'future'],
+  ['temp', 'about'],
+  ['temp', 'skills'],
+  ['temp', 'values'],
+  ['temp', 'future'],
 ];
 
 export default function PageHeader() {
@@ -15,7 +15,16 @@ export default function PageHeader() {
       <div className='flex justify-between h-20'>
         <div className='w-full'>
           <Link href='/'>
-            <a></a>
+            <a>
+              <Image
+                src='/image/logo.png'
+                width={160}
+                height={80}
+                objectFit='contain'
+                alt='ヘッダーアイコン'
+                className='hover:opacity-75 hover:cursor-pointer'
+              />
+            </a>
           </Link>
         </div>
         <div className='flex justify-end w-full'>
